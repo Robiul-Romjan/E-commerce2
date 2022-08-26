@@ -1,0 +1,238 @@
+@media(max-width: 992px){
+    .home-left-content {
+        margin-top: 35px;
+    }
+    .featured-products{
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    .latest-products{
+        padding: 0px 0px;
+    }
+
+  .contact-main-title{
+    padding: 20px 0 !important;
+  }
+  .contact-detail{
+    margin: 0 !important;
+  }
+
+
+  .account-form{
+    margin: auto
+  }
+}
+
+
+
+@media(max-width: 767px){
+    .search-btn {
+        left: 38%;
+    }
+    .home-left-content {
+        margin-top: 35px;
+    }
+    .catagory-section .col-sm-6{
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+
+    .shoping-img img{
+        width: 100px;
+        margin: 0;
+    }
+}
+
+
+@media(max-width: 600px){
+    .search-btn{
+        left: 34%;
+    }
+    .input-control{
+        width: 130px;    
+    }
+    .menu-chart{
+        right: 22%;
+    }
+
+    .single-photo .big-img{
+        height: 300px;
+    }
+    .small-img{
+        width: 24%;
+    }
+
+    .list-group li{
+        width: 100%;
+    }
+    .list-group li .list-fotter1{
+        width: 15%;
+    }
+    .list-group li .list-fotter2{
+        width: 55%;
+    }
+    .list-group li .list-fotter3{
+        width: 30%;
+    }
+}
+
+
+@media(max-width: 512px){
+   .home-left-content p{
+    margin-bottom: 0px;
+   }
+   .offer-products-details {
+    margin-top: -25px;
+  }
+  .test1 {
+    width: 68px;
+    height: 30px;
+    display: block;
+   }
+  .test2{
+    width: 50%;
+    display: block;
+  }
+
+  .catagory-section{
+    padding: 0 !important;
+  }
+}
+
+
+@media(max-width: 460px){
+    .input-control{
+        width: 90px;    
+    }
+    .search-btn{
+        left: 37%;
+    }
+    .menu-chart{
+        right: 22%;
+    }
+    .offer-products-details {
+        margin-top: -30px;
+    }
+
+
+    .test1 {
+        width: 68px;
+        height: 30px;
+        display: block;
+       }
+      .test2{
+        width: 50%;
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    
+   .navbar-brand img{
+    width: 100px;
+   }
+   .input-control{
+    height: 30px;    
+  }
+  .search-btn{
+    left: 33%;
+}
+  .search-btn span{
+    height: 30px;
+  }
+  .search-btn span i{
+    margin-top: 5px;
+  }
+  .single-featured-product {
+    margin: -36px 0px;
+  }
+  .offer-products-details {
+    margin-top: -25px;
+  }
+  .testimonial{
+    padding: 20px 0 !important;
+  }
+  .testimonial-col{
+    margin: 15px 0;
+  }
+  .brands{
+    padding: 20px 0 !important;
+  }
+  .brands-col{
+    width: 32%;
+  }
+
+
+  .footer-part{
+    width: 49%;
+  }
+  .logo-1{
+    width: 48%;
+    margin: -25px 1px;
+    padding: 0;
+  }
+  .fotter-part3{
+    padding: 5px 0 !important;
+    margin-top: -50px;
+  }
+  .fotter-part4{
+    padding: 5px 0 !important;
+    margin-top: -50px;
+  }
+  .copyright p{
+    font-size: 11px;
+  }
+
+
+  .all-part1{
+    width: 49%;
+  }
+
+
+  .about-img img {
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+   }
+   .white-div{
+    margin: 20px 0 !important;
+   }
+   .company-details{
+    margin: 0 !important;
+   }
+  .white-div .white{
+    width: 380px;
+    background: #fff;
+    margin: auto;   
+   }
+   .all-box{
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+   .box-res{
+    margin: 10px 0;
+   }
+
+
+   .test1 {
+    width: 68px;
+    height: 30px;
+    display: block;
+   }
+  .test2{
+    width: 50%;
+    display: block;
+  }
+
+  .single-photo .big-img{
+    height: 250px;
+  }
+  .single-photo-detais h1{
+    font-size: 24px;
+  }
+
+
+  .chart-product{
+    margin: 35px 0 !important;
+  }
+}

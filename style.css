@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Great+Vibes&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Moonrocks&family=The+Nautigal:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.body, h1, p{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* --------------------------------Home section----------------------------------- */
+
+.home-section{
+    background: radial-gradient(#fff,#ffd6d6) ;
+}
+.search-btn{
+    display: flex;
+    align-items: space-between;
+    position: absolute;
+    left: 33%;
+}
+ .input-control{
+    padding: 5px 10px;
+    border: 1px solid #f18374;
+}
+.input-control:focus{
+    outline-style: solid;
+    outline-color: #f18374;
+    outline-width: 3px;
+}
+
+.search-btn span {
+    color: white;
+    background: #ff523b;
+    padding: 5px 11px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.navbar{
+    position: relative;
+}
+.navbar-nav .nav-link{
+    color: #555!important;
+    transition: all .3s;
+}
+.navbar-nav .nav-link:hover{
+    color: #ff523b!important;
+}
+.menu-chart{
+    position: absolute;
+    right: 2%;
+    margin-top: -10px;
+}
+.menu-chart img{
+    width: 35px;
+}
+
+.home-left-content{
+    margin-top: 100px;
+}
+.home-left-content h1{
+    font-weight: 700;
+}
+
+.btn{
+    background: #ff523b;
+    border-radius: 25px;
+    padding: 8px 30px;
+    color: #fff;
+}
+.btn:hover{
+    background: rgb(178, 32, 61);
+    color: #fff;
+}
+
+
+/* --------------------------------Featured catagory section----------------------------------- */
+
+.under-title{
+    display: inline-block;
+}
+.under-title p{
+    height: 3px;
+    width: 175px;
+    background: #ff523b;
+}
+
+.allproducts-title p{
+    height: 3px;
+    background: #ff523b;
+}
+.catagory-section img{
+    width: 300px;
+    border-radius: 10px;
+}
+.single-featured-product{
+    transition: all .5s;
+}
+.single-featured-product:hover{
+    transform: translateY(-5px);
+}
+ .rating i{
+    color: #ff523b;
+}
+
+
+
+/* --------------------------------offer products styling----------------------------------- */
+.offer-product{
+    background: radial-gradient(#fff,#ffd6d6) ;
+}
+.offer-product-image img{
+    padding: 50px;
+}
+.offer-products-details{
+     margin-top: 80px;
+}
+small{
+    color: #555;
+}
+
+
+
+/* --------------------------------Testimonial styling----------------------------------- */
+
+.testimonial{
+    margin: auto;
+}
+.testimonial-col{
+    text-align: center;
+    padding: 30px 20px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.testimonial-col:hover{
+    transform: translateY(-10px);
+}
+.testimonial-col  .fa-quote-left{
+    color: #ff523b;
+    font-size: 35px;
+}
+.testimonial-col p{
+    color: #777;
+    text-align: justify;
+    font-size: 12px;
+}
+.testimonial-col img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.testimonial-col h4{
+    font-size: 16px;
+    color: #555;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    margin-top: 10px;
+}
+
+
+
+/* --------------------------------Brand styling----------------------------------- */
+.brands h4{
+    margin: 15px 0;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+
+}
+.brands img{
+    cursor: pointer;
+    padding: 0 10px;
+    filter: grayscale(100%);
+    transition: all .3s;
+}
+.brands img:hover{
+    filter: grayscale(0);
+}
+
+
+/* --------------------------------fotter styling----------------------------------- */
+
+.fotter{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.fotter-part1 h3{
+    font-family: "poppins", sans-serif;
+    color: #ff523b;
+}
+.app-logo img{
+    width: 140px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fotter-part3 h4{
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff523b;
+}
+.fotter-part3 ul li{
+    list-style: none;
+    line-height: 29px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.fotter-part3 ul li:hover{
+    letter-spacing: 1px;
+    color: #ff523b;
+}
+
+.fotter-part4 h4{
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff523b;
+}
+.fotter-part4 ul li{
+    list-style: none;
+    line-height: 29px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.fotter-part4 ul li:hover{
+    letter-spacing: 1px;
+    color: #ff523b;
+}
+
+.copyright span{
+    color: #ff523b;
+    cursor: pointer;
+}
+
+
+/* --------------------------------All products styling----------------------------------- */
+
+.with-all p{
+   width: 150px;
+}
+.allproducts-title{
+    position: relative;
+}
+.allproducts-title h4{
+    font-family: "poppins", sans-serif;
+}
+
+.allproducts-title .dropdown button{
+    border: 2px solid #ff523b;
+    font-family: "poppins", sans-serif;
+}
+.allproducts-title .dropdown button:focus{
+    outline: none;
+}
+.dropdown-menu .dropdown-item{
+    transition: all .3s;
+    font-family: "poppins", sans-serif;
+}
+.dropdown-menu .dropdown-item:hover{
+    background: #ff523b;
+    color: #fff;
+}
+
+
+.another-pages ul li a{
+    color: #555!important;
+    border: 1px solid #ff523b ;
+    transition: all .3s;
+}
+.another-pages ul li a:hover{
+    border: 1px solid #ff523b ;
+    background: #ff523b;
+    color: white!important;
+}
+.another-pages ul li a:focus{
+    box-shadow: none;
+}
+
+
+
+/* --------------------------------About us styling----------------------------------- */
+
+.about-us{
+    background: radial-gradient(#fff,#ffd4d4) ; 
+    position: relative; 
+}
+.white-div{
+    position: relative;
+}
+.white-div .white{
+    height: 950px;
+    width: 700px;
+    background: #fff;
+    margin: auto;   
+}
+
+.about-position{
+     position: absolute;
+     top: 0; 
+}
+
+.about-img img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+   
+}
+
+
+.about-box1, .about-box2, .about-box3 h1{
+    text-align: center;
+}
+.about-box1, .about-box2, .about-box3 p{
+    line-height: 2rem;
+}
+.about-box1{
+    background: #f18374;
+    color: #fff;
+    border-radius: 8px;
+}
+.about-box2{
+    background: #ff523b;
+    color: #fff;
+    border-radius: 8px;
+}
+.about-box3{
+    background: #af4f42;
+    color: #fff;
+    border-radius: 8px;
+}
+
+
+
+/* --------------------------------Contact us styling----------------------------------- */
+
+.contact-section{
+    font-family: 'poppins', sans-serif;
+    background: radial-gradient(#fff,#ffd4d4) ;
+}
+
+
+.contact-detail .text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-detail p{
+    text-align: justify;
+}
+
+.contact-icon{
+    font-size: 25px;
+    color: crimson;
+}
+.contact-head{
+    margin: 0px -30px;
+}
+.contact-head h4{
+    margin: 0;
+    font-size: 17px;
+}
+.contact-head p{
+    color: #333;
+}
+
+
+/* --------------------------------Single product styling----------------------------------- */
+
+
+.single-photo-detais .dropdown button{
+    border-color: #af4f42;
+}
+.single-photo-detais .dropdown button:focus{
+    outline: none;
+}
+.single-photo-detais input{
+    width: 50px;
+    height: 45px;
+    border-color: #af4f42;
+    text-align: center;
+}
+.single-photo-detais input:focus{
+    outline: none;
+}
+.small-img-row{
+    margin: auto;
+}
+.small-img-row .small-img{
+    cursor: pointer;
+}
+
+
+
+/* --------------------------------Shoping chart styling----------------------------------- */
+
+.shoping-img{
+   display: inline-block;
+}
+.shoping-img img{
+    margin-top: -65px;
+}
+ li .detais-product{
+    display: inline-block;
+    margin: 0 10px;
+}
+li .detais-product a{
+    color: #f18374;
+    text-decoration: none;
+}
+.quantity input{
+    width: 45px;
+}
+
+
+
+
+/* -------------------------------- account styling----------------------------------- */
+.account{
+    background: radial-gradient(#fff,#ffd4d4) ;
+}
+#Indicator{
+    width: 100px;
+    height: 3px;
+    background:#ff523b;
+    transform: translateX(157px);
+    transition: all .5s;
+}
+.account-form{
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    margin: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.account-form span{
+    margin: 0 30px;
+    cursor: pointer;
+}
+.login-form{
+    position: absolute;
+    left: -300px; 
+    width: 100%;
+    transition: all .5s;
+    
+}
+.login-form form a{
+    width: 100%;
+}
+.login-form form p{
+    font-size: 12px;
+    cursor: pointer;
+}
+.reg-form{
+    transition: all .5s;
+    position: absolute;
+    width: 100%;
+}
+.reg-form form a{
+    width: 100%;
+}
+
+
